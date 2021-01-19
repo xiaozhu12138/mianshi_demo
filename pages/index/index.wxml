@@ -1,0 +1,50 @@
+<!--index.wxml-->
+<view class="header">
+  <text>摇骰子</text>
+</view>
+<view class="main">
+  <image src="https://s3.ax1x.com/2021/01/19/sgsgKI.jpg"></image>
+</view>
+<view class="footer">
+  <image src="https://s3.ax1x.com/2021/01/19/sgs2rt.jpg"></image>
+  <view class="footer-bigBox" wx:if="{{ defaultState }}">
+    <view class="footer-content">
+      <image src="https://s3.ax1x.com/2021/01/19/sgs0UO.png"></image>
+    </view>
+    <view class="footer-touzi" bindtouchstart="touchstart" bindtouchend="touchend">
+      <image src="https://s3.ax1x.com/2021/01/19/sgsNK1.png"></image>
+    </view>
+  </view>
+  <view class="footer-bigBox" wx:if="{{ oneSecond }}">
+    <view class="footer-content">
+      <image src="https://s3.ax1x.com/2021/01/19/sgfLU1.png"></image>
+    </view>
+    <view class="footer-touzi" bindlongtap="touchstart" bindtouchend="touchend">
+      <image src="https://s3.ax1x.com/2021/01/19/sgsNK1.png"></image>
+    </view>
+  </view>
+  <view class="footer-bigBox" wx:if="{{ twoSecond }}">
+    <view class="footer-content current">
+      <image src="https://s3.ax1x.com/2021/01/19/s2ZIDf.png"></image>
+    </view>
+    <view class="footer-touzi" bindlongtap="touchstart" bindtouchend="touchend">
+      <image src="https://s3.ax1x.com/2021/01/19/sgsNK1.png"></image>
+    </view>
+  </view>
+  <view class="footer-bigBox" wx:if="{{ treeSecond }}">
+    <view class="footer-content current">
+      <image src="https://s3.ax1x.com/2021/01/19/s2uliF.png"></image>
+    </view>
+    <view class="footer-touzi" bindlongtap="touchstart" bindtouchend="touchend">
+      <image src="https://s3.ax1x.com/2021/01/19/sgsNK1.png"></image>
+    </view>
+  </view>
+  <view class="footer-bigBox" wx:if="{{ fourSecond }}">
+    <view class="footer-content current1">
+      <image src="https://s3.ax1x.com/2021/01/19/s2KXnI.png"></image>
+    </view>
+    <view class="footer-touzi" bindlongtap="touchstart" bindtouchend="touchend">
+      <image src="https://s3.ax1x.com/2021/01/19/sgsNK1.png"></image>
+    </view>
+  </view>
+</view>

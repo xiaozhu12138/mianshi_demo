@@ -1,0 +1,75 @@
+/**index.wxss**/
+.header {
+  background-color: #7CB1FF;
+  text-align: center;
+  height: 45rpx;
+}
+
+.header text {
+  color: transparent;
+}
+
+.main {
+  height: 40%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.main image {
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.footer {
+  width: 100%;
+  height: 57%;
+  position: relative;
+}
+
+.footer image {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.footer-content {
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.footer-content image {
+  width: 100%;
+  height: 100%;
+}
+
+.footer-touzi {
+  width: 20%;
+  height: 20%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+footer-touzi image {
+  width: 100%;
+  height: 100%;
+}
+
+.current {
+  width: 60%;
+  left: 43%;
+}
+
+.current1 {
+  width: 85%;
+  left: 43%;
+}
